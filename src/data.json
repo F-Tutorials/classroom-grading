@@ -1,1 +1,23 @@
-{ "classrooms": ["111035554-f-tutorials-classroom-202208"], "latest_updated_at": "", "apiUseCount": "" }
+{
+    "classrooms": [
+        {
+            "title": "F-Tutorials-classroom-202208",
+            "id": "111035554-f-tutorials-classroom-202208",
+            "desc": "",
+            "assignments": [
+                {
+                    "id": "111035554-f-tutorials-classroom-202208-ftutorials-assignment-1",
+                    "title": "ftutorials-assignment-1",
+                    "branches": [
+                        "main"
+                    ],
+                    "student_repositories": [
+
+                    ]
+                }
+            ]
+        }
+    ],
+    "latest_updated_at": "2022-08-14T08:15:55.996Z",
+    "apiUseCount": 57
+}
