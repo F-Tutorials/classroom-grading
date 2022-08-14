@@ -3,7 +3,7 @@
   "classrooms": [
     {
       "name": "111035554-f-tutorials-classroom-202208",
-      "assignments": ["ftutorials-assignment-1"],
+      "assignments": [["ftutorials-assignment-1", { "branches": ["main"]}]],
       "studentBlacklist": []
     }
   ],
