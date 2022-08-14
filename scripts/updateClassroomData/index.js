@@ -49,11 +49,14 @@ async function run() {
           throw new Error('assignment config wrong!')
         }
         const repos = await fetchAssignments(classroom, assignment, process.env.SESSION_TOKEN)
+        console.log(repos);
 
         const currentAssignment = findCurrentAssignmentData(classroom, assignment)
         const currentAssignmentUserMap = {}
         const currentAssignmentRepoMap = {}
         const currentAssignmentWorkflowMap = {}
+
+        console.log(currentAssignment);
 
         _.forEach(currentAssignment.student_repositories, (repo) => {
           currentAssignmentUserMap[repo.name] = repo.studentInfo
