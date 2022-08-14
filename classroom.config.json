@@ -1,19 +1,13 @@
 {
-  "org": "learn-node",
-  "updateStep": 2,
+  "org": "F-Tutorials",
   "classrooms": [
     {
-      "name": "109397453-learn-node-classroom-32d9a5",
-      "assignments": [["exercise-reading", { "branches": [ "lab0", "lab1" ] }], "c-language", "rust-exercise"],
-      "studentBlacklist": []
-    },
-    {
-      "name": "109397453-forth-grade",
-      "assignments": ["exercise-reading", "math-assignment-one"],
+      "name": "F-Tutorials-classroom-202208",
+      "assignments": ["ftutorials-assignment-1"],
       "studentBlacklist": []
     }
   ],
   "website": {
-    "title": "2022开源操作系统训练营排行榜"
+    "title": "F-Tutorials-排行榜"
   }
 }
