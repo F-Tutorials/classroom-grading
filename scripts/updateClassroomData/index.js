@@ -33,7 +33,11 @@ async function run() {
   })
 
   const findCurrentAssignmentData = (classroom, assignment) => {
+    console.log(currentData);
+    console.log(classroom);
+    console.log(assignment);
     const currentClassroom = _.find(currentData.classrooms, (c) => c.id === classroom)
+    console.log(currentClassroom)
     if (currentClassroom) {
       return _.find(currentClassroom.assignments, (a) => a.title == assignment)
     }
